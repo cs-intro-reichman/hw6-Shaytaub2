@@ -170,8 +170,8 @@ public class Runigram {
 		{
 			for (int j=0; j<width; j++)
 			{
-				jScaleWidth =(int) Math.round((j*numCol)/(double) width);
-				iScaleHeight = (int) Math.round((i*numRow)/(double)height);
+				jScaleWidth =(int)((j*numCol)/(double) width);
+				iScaleHeight = (int)((i*numRow)/(double)height);
 				scaled [i][j] = image [iScaleHeight][jScaleWidth];
 			}
 		}
